@@ -260,6 +260,10 @@ border-bottom: 2px solid #e67e22;
 
 /* -----------How it Works-----------------*/
 
+.section-steps {
+    background-color: #f4f4f4;
+}
+
 
 .steps-box:first-child {
     text-align: right;
