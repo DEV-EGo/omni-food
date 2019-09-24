@@ -382,11 +382,17 @@ blockquote {
     padding: 2%;
     font-style: italic;
     line-height: 145%;
+    position: relative;
+    margin: 40px;
 }
 
 blockquote:before {
-    content: "A";
-    font-size:  400%;
+    content: "\201c";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
 }
 
 cite {
