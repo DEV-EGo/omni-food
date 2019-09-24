@@ -20,6 +20,15 @@ html{
     text-rendering: optimizeLegibility;
 }
 
+.clearfix {zoom: 1}
+.clearfix::after{
+    content: '-';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /* --------------------------*/
 /* -------Reusable components--------*/
 /* --------------------------*/
@@ -272,16 +281,27 @@ border-bottom: 2px solid #e67e22;
 
 }
 
+.works-step:last-of-type {
+    margin-bottom: 80px; 
+}
+
+
 .works-step div {
     color: #e67e22;
     border: 2px solid #e67e22;
     display: inline-block;
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
     text-align: center;
     padding: 5px;
     float: left;
     font-size: 150%;
     margin-right: 25px;
+}
+
+.btn-app img {
+    height: 50px;
+    widows: auto;
+    margin-right: 10px;
 }
