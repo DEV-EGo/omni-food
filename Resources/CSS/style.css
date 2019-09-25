@@ -433,14 +433,24 @@ cite img {
     font-size: 300%;
     margin-bottom: 10px;
     font-weight: 100;
+    color: #eb8220;
 }
 
 .plan-price span {
     font-size: 30%;
     font-weight: 300;
-    
+
 }
 
 .plan-price-meal {
     font-size: 80%;
+}
+
+.plan-box ul {
+    list-style: none;
+
+}
+
+.plan-box ul li {
+    padding: 5px 0;
 }
