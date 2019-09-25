@@ -398,38 +398,71 @@
                 <form method="post" action="#" class="contact-form">
                     <div class="row">
                         <div class="col span-1-of-3">
-                            <label>Name</label>
+                            <label for="name">Name</label>
                         </div>
                         <div class="col span-2-of-3">
                             <input type="text" name="name" id="name" placeholder="Your name" required>
                         </div>
                     </div>
+
                     <!-- -------EMAIL-------- -->
+
                     <div class="row">
                         <div class="col span-1-of-3">
-                            <label>Email</label>
+                            <label for="email">Email</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <input type="email" name="emai" id="email" placeholder="Input Email Adress" required>
+                            <input type="email" name="email" id="email" placeholder="Input Email Adress" required>
                         </div>
                     </div>
 
-                    <!--  -->
+                    <!-- selections -->
+
                     <div class="row">
                         <div class="col span-1-of-3">
-                            <label>How did you find us</label>
+                            <label for="find-us">How did you find us</label>
                         </div>
                         <div class="col span-2-of-3">
 
                             <select name="find-us" id="find-us">
-                                <option value="friends"> Friends</option>
+                                <option value="friends" selected> Friends</option>
                                 <option value="Search"> Search Engine</option>
                                 <option value="ad"> Advertisement</option>
                                 <option value="other"> Other</option>
-
-
-
                             </select>
+                        </div>
+                    </div>
+
+                    <!-- Newsletter -->
+
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Newsletter</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news" checked> yes please
+                        </div>
+                    </div>
+
+                    <!-- drop us a line field -->
+
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Drop us a line</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="your message"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Submit button -->
+
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="send it!">
                         </div>
                     </div>
 
@@ -444,16 +477,7 @@
 </html>
 
 <!--
-    Section 7: Contact form
-Title:
-
-Fields to include:
-Name
-Email
-How did you find us?
-Newsletter
-Drop us a line
-
+///////notes///////
 
 
 -->
