@@ -1,5 +1,13 @@
+/* big tablets to 1200px (widths smaller than pixel row*/
+@media only screen and (max-width: 1200px) {
 
-/* targeting ipads */
+}
+
+
+
+
+
+/* targeting small tablet to big tablet 768 - 1023 */
 @media only screen and (max-width: 1023px) {
 
 }
