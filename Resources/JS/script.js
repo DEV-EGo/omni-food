@@ -1,6 +1,1 @@
-$(document).ready(function () {
-
-    $('h1').click(function () {
-        $(this).css('background-color', '#ff0000');
-    })
-});
+alert("l - o - o - k a - l - i - v - e");
